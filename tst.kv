@@ -1,0 +1,87 @@
+Screen:
+    MDCard:
+        size_hint: None, None
+        size: 300,400
+        pos_hint: {'center_x':0.5,'center_y':0.5}
+        elevation: 10
+        padding: 25
+        spacing: 25
+        orientation: 'vertical'
+
+        MDLabel:
+            id:wl
+            text: "Welcome"
+            font_size: 80
+            halign: 'center'
+            size_hint_y: None
+            height: self.texture_size[1]
+            padding_y: 15
+
+        MDTextField:
+            id:usr
+            mode: "outlined"
+            size_hint_x: None
+            width: "240dp"
+            pos_hint: {"center_x": .5, "center_y": .5}
+
+            MDTextFieldLeadingIcon:
+                icon: "account"
+
+            MDTextFieldHintText:
+                text: "User Name"
+
+            MDTextFieldHelperText:
+                text: "Length"
+                mode: "persistent"
+
+            MDTextFieldTrailingIcon:
+                icon: "information"
+
+            MDTextFieldMaxLengthText:
+                max_text_length: 10
+        MDTextField:
+            id: passwd
+            mode: "outlined"
+            size_hint_x: None
+            width: "240dp"
+            pos_hint: {"center_x": .5, "center_y": .4}
+            password: True  # hides characters
+
+            MDTextFieldLeadingIcon:
+                icon: "lock"
+
+            MDTextFieldHintText:
+                text: "Password"
+
+            MDTextFieldHelperText:
+                text: "At least 6 characters"
+                mode: "on_error"
+
+            MDTextFieldTrailingIcon:
+                icon: "eye-off"
+
+        MDButton:
+            style: "outlined"
+            pos_hint: {"center_x": .5, "center_y": .3}
+            on_press: app.log()
+
+            MDButtonIcon:
+                icon:"login"
+
+            MDButtonText:
+                text: "Login"
+
+        MDButton:
+            style: "outlined"
+            pos_hint: {"center_x": .5, "center_y": .3}
+            on_press: app.clean()
+
+            MDButtonIcon:
+                icon:"broom"
+
+            MDButtonText:
+                text: "Clean"
+
+        Widget:
+            size_hint_y: None
+            height: 1
