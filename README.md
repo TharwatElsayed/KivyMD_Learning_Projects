@@ -1,2 +1,2 @@
-# Kivy_Learning_Projects
-Kivy_Learning_Projects
+# KivyMD_Learning_Projects
+KivyMD_Learning_Projects
