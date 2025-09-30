@@ -1,0 +1,72 @@
+MDFloatLayout:
+    MDGridLayout:
+        size_hint: .5,.5
+        pos_hint: {'center_x':.5,'center_y':.5}
+        cols: 3
+        rows: 3
+
+        Button:
+            id: btn1
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn1)
+        Button:
+            id: btn2
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn2)
+        Button:
+            id: btn3
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn3)
+        Button:
+            id: btn4
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn4)
+        Button:
+            id: btn5
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn5)
+        Button:
+            id: btn6
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn6)
+        Button:
+            id: btn7
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn7)
+        Button:
+            id: btn8
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn8)
+        Button:
+            id: btn9
+            text: ""
+            font_size: "50sp"
+            on_release: app.press(btn9)
+    MDLabel:
+        id: score
+        font_size: "35sp"
+        text: "X's Turn"
+        halign: 'center'
+        pos_hint: {'center_y':.1}
+
+    MDButton:
+        style: "elevated"
+        id: restart
+        pos_hint: {"center_x": .5, "center_y": .2}
+        on_release: app.restart()
+        MDButtonText:
+            text: "RESTART"
+        
+    MDLabel:
+        id: game
+        text: "X Wins: 0 | O Wins: 0"
+        halign:'center'
+        pos_hint: {'center_x':0.5,'center_y':0.05}
