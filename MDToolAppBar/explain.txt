@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=ocfLcJ2ycIQ&list=PLy5hjmUzdc0nMkzhphsqgPCX62NFhkell&index=5
+
+https://kivymd.readthedocs.io/en/latest/components/appbar/
