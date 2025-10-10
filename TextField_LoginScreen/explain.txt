@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=o-viUXzkbhU&list=PLy5hjmUzdc0nMkzhphsqgPCX62NFhkell&index=7
+
+https://kivymd.readthedocs.io/en/latest/components/text-fields/
