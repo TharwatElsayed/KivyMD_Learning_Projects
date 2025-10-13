@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=ALtocQRMNPk&list=PLy5hjmUzdc0nMkzhphsqgPCX62NFhkell&index=11
+
+https://kivymd.readthedocs.io/en/1.1.1/components/datepicker/
+https://kivymd.readthedocs.io/en/1.1.1/components/timepicker/
+https://kivymd.readthedocs.io/en/1.1.1/components/colorpicker/
