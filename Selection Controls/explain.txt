@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=_PWSCFJhA6M&list=PLy5hjmUzdc0nMkzhphsqgPCX62NFhkell&index=14
+
+https://kivymd.readthedocs.io/en/1.1.1/components/selectioncontrols/
