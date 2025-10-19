@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=HLtveYmX_40&list=PLy5hjmUzdc0nMkzhphsqgPCX62NFhkell&index=15
+https://kivymd.readthedocs.io/en/1.1.1/components/bottomnavigation/
